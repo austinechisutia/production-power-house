@@ -4,7 +4,7 @@ import concert from '../assets/images/concert.jpg';
 
 export default function Solutions() {
   return (
-    <div className="w-full py-20 px-20 mt-20 flex flex-col items-center gap-20">
+    <div className="w-full p-6 mt-10 flex flex-col items-center gap-20">
 
       {/* 1. Title + Description */}
       <div className="max-w-2xl text-center flex flex-col gap-10">
@@ -33,7 +33,7 @@ export default function Solutions() {
       </div>
 
       {/* 3. Image + Description */}
-      <div className="w-full flex flex-col md:flex-row items-center gap-6 bg-white rounded-lg shadow-sm ">
+      <div className="w-full flex flex-col md:flex-row items-center gap-6 bg-white rounded-lg shadow-sm">
         
         {/* Left Image */}
         <img
@@ -43,11 +43,11 @@ export default function Solutions() {
         />
 
         {/* Right Description */}
-        <div className="md:w-1/2 flex flex-col gap-3">
+        <div className="md:w-1/2 flex flex-col gap-3 p-5">
         <p className="text-lg">
           08/24
         </p>
-          <h3 className="text-6xl text-black">
+          <h3 className="text-black text-4xl lg:text-6xl sm:text-3xl">
             Large <br></br>scale solutions
           </h3>
 
@@ -71,7 +71,7 @@ export default function Solutions() {
 
       </div>
 
-      <div className="w-full flex flex-col md:flex-row items-center gap-6 bg-white rounded-lg shadow-sm ">
+      <div className="w-full flex flex-col md:flex-row items-center gap-6 bg-white rounded-lg shadow-sm">
         
         {/* Left Image */}
         <img
@@ -81,11 +81,11 @@ export default function Solutions() {
         />
 
         {/* Right Description */}
-        <div className="md:w-1/2 flex flex-col gap-3">
+        <div className="md:w-1/2 flex flex-col gap-3 p-5">
         <p className="text-lg">
           08/24
         </p>
-          <h3 className="text-6xl text-black">
+          <h3 className="text-4xl lg:text-6xl sm:text-3xl text-black">
             Large <br></br>scale solutions
           </h3>
 

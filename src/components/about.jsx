@@ -10,9 +10,11 @@ export default function About() {
           items-center 
           justify-between 
           text-black 
-          text-sm 
-          sm:text-base 
-          md:text-lg
+          text-xs 
+          sm:text-sm 
+          md:text-base 
+          lg:text-lg
+          px-2 sm:px-4 md:px-6
           whitespace-nowrap
         "
       >

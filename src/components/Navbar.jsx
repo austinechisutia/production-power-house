@@ -1,6 +1,7 @@
 // src/components/Navbar.jsx
 import React from "react";
 
+
 const Navbar = () => {
   return (
     <nav className="bg-gray-100 shadow-lg">

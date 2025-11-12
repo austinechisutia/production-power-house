@@ -25,7 +25,7 @@ const PhotoGrid = ({ images }) => {
                 src={src}
                 alt={`grid-img-${i}`}
                 loading="lazy"
-                className="w-full h-full object-cover rounded-lg shadow-md filter grayscale hover:grayscale-0 transition duration-300"
+                className="w-full h-full object-cover rounded-lg shadow-md filter grayscale hover:grayscale-0 focus:grayscale-0 transition duration-100"
               />
             </figure>
           ))}

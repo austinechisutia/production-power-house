@@ -14,7 +14,7 @@ export default function HeroSection() {
         rel="stylesheet" 
       />
 
-      <div className="min-h-screen" style={{ fontFamily: 'Inter, sans-serif' }}>
+      <div className="" style={{ fontFamily: 'Inter, sans-serif' }}>
         {/* Hero Section */}
         <section className="max-w-7xl mx-auto px-6 py-20">
           <div className="grid lg:grid-cols-2 gap-10 items-center">
