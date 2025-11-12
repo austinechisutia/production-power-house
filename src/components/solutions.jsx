@@ -1,6 +1,7 @@
 import React from "react";
 import crowd from '../assets/images/crowd.jpg';
 import concert from '../assets/images/concert.jpg';
+import { Users, ArrowRight, DollarSign } from "lucide-react";
 
 export default function Solutions() {
   return (
@@ -52,12 +53,12 @@ export default function Solutions() {
           </h3>
 
           <div className="flex gap-2">
-            <div className="w-auto max-w-40 h-10 bg-gray-300 rounded-full text-slate-900 flex items-center justify-center p-5">
-              60344
+            <div className="w-auto space-x-4 gap-1 max-w-40 h-10 bg-gray-300 rounded-full text-slate-900 flex items-center justify-center p-5">
+              <Users size={20} />   <span>60344</span>
             </div>
 
             <div className="w-auto max-w-40 h-10 bg-gray-300 rounded-full text-slate-900 flex items-center justify-center p-5">
-              60344
+             <span className="flex items-center gap-2"> <DollarSign size={20} /> 60344</span>
             </div>
           </div>
           <p className="text-gray-700 text-sm sm:text-base">
@@ -65,8 +66,10 @@ export default function Solutions() {
             You can talk about speed, ease of use, or the way your tools
             remove stress like wiping fog from glass.
           </p>
-           <div className="h-10 w-10 h-10 bg-gray-300 rounded-full text-slate-900 flex items-center justify-center p-5">
-            </div>
+           <div className="h-10 w-10 bg-gray-300 rounded-full text-slate-900 flex items-center justify-center p-2">
+  <ArrowRight size={20} />
+</div>
+
         </div>
 
       </div>
@@ -85,17 +88,17 @@ export default function Solutions() {
         <p className="text-lg">
           08/24
         </p>
-          <h3 className="text-4xl lg:text-6xl sm:text-3xl text-black">
+          <h3 className="text-black text-4xl lg:text-6xl sm:text-3xl">
             Large <br></br>scale solutions
           </h3>
 
           <div className="flex gap-2">
-            <div className="w-auto max-w-40 h-10 bg-gray-300 rounded-full text-slate-900 flex items-center justify-center p-5">
-              60344
+            <div className="w-auto space-x-4 gap-1 max-w-40 h-10 bg-gray-300 rounded-full text-slate-900 flex items-center justify-center p-5">
+              <Users size={20} />   <span>60344</span>
             </div>
 
             <div className="w-auto max-w-40 h-10 bg-gray-300 rounded-full text-slate-900 flex items-center justify-center p-5">
-              60344
+             <span className="flex items-center gap-2"> <DollarSign size={20} /> 60344</span>
             </div>
           </div>
           <p className="text-gray-700 text-sm sm:text-base">
@@ -103,8 +106,10 @@ export default function Solutions() {
             You can talk about speed, ease of use, or the way your tools
             remove stress like wiping fog from glass.
           </p>
-           <div className="h-10 w-10 h-10 bg-gray-300 rounded-full text-slate-900 flex items-center justify-center p-5">
-            </div>
+           <div className="h-10 w-10 bg-gray-300 rounded-full text-slate-900 flex items-center justify-center p-2">
+  <ArrowRight size={20} />
+</div>
+
         </div>
 
       </div>

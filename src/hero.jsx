@@ -1,5 +1,6 @@
 import React from 'react';
 import Camera from './assets/images/cam.png';
+import { ArrowRight } from "lucide-react";
 
 
 
@@ -35,7 +36,7 @@ export default function HeroSection() {
 
                 <div className="flex flex-row">
                 {/* Description */}
-               <div className='w-10 h-10 bg-gray-300 rounded-full text-slate-900'></div>
+               <div className='w-10 h-10 bg-gray-300 flex justify-center items-center rounded-full text-slate-900'><ArrowRight size={20} /></div>
                <div className='w-50 h-10 bg-gray-300 rounded-full text-slate-900 flex items-center justify-center'>
                 <p className="text-sm text-black">
                   Make your event happen

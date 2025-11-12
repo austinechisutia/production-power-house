@@ -1,5 +1,7 @@
 // PhotoGrid.jsx
 import React from "react";
+import { ArrowRight } from "lucide-react";
+
 
 const PhotoGrid = ({ images }) => {
   return (
@@ -34,7 +36,8 @@ const PhotoGrid = ({ images }) => {
 
 
 <div className="flex flex-row items-center mt-4 justify-center">
-  <div className="w-10 h-10 bg-gray-300 rounded-full"></div>
+                 <div className='w-10 h-10 bg-gray-300 flex justify-center items-center rounded-full text-slate-900'><ArrowRight size={20} /></div>
+
 
   <div className="h-10 px-4 bg-gray-300 rounded-full flex items-center justify-center">
     <p className="text-sm text-black">Discover More...</p>

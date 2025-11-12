@@ -16,6 +16,7 @@ import Solutions from './components/solutions.jsx'
 import Choose from './components/choose.jsx'
 
 
+
 const images = [cam, camera, light, production, stage, sound];
 
 function App() {
