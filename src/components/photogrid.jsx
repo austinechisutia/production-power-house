@@ -27,7 +27,7 @@ const PhotoGrid = ({ images }) => {
                 src={src}
                 alt={`grid-img-${i}`}
                 loading="lazy"
-                className="w-full h-full object-cover rounded-lg shadow-md filter grayscale hover:grayscale-0 focus:grayscale-0 transition duration-100"
+                className="w-full h-full object-cover rounded-lg shadow-md filter transform hover:scale-105 transition-transform duration-700 ease-in-out grayscale hover:grayscale-0 focus:grayscale-0 transition duration-100"
               />
             </figure>
           ))}
@@ -36,11 +36,11 @@ const PhotoGrid = ({ images }) => {
 
 
 <div className="flex flex-row items-center mt-4 justify-center">
-                 <div className='w-10 h-10 bg-gray-300 flex justify-center items-center rounded-full text-slate-900'><ArrowRight size={20} /></div>
+                 <div className='w-10 h-10 bg-gray-300 flex justify-center hover:bg-black hover:text-white  transition-colors items-center rounded-full text-slate-900'><ArrowRight size={20} /></div>
 
 
-  <div className="h-10 px-4 bg-gray-300 rounded-full flex items-center justify-center">
-    <p className="text-sm text-black">Discover More...</p>
+  <div className="h-10 px-4 bg-gray-300 hover:bg-black hover:text-white  transition-colors rounded-full flex items-center justify-center">
+    <p className="text-sm text-black  hover:text-white">Discover More...</p>
   </div>
 </div>
     </>

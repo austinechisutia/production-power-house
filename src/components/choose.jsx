@@ -14,7 +14,7 @@ const choose = () => {
 
         {/* Example content */}
        <div className="flex flex-col md:flex-row gap-6">
-  <div className="bg-white p-6 rounded-lg shadow-md flex-1">
+  <div className="bg-white p-6 rounded-lg shadow-md flex-1 transform hover:scale-105 transition-transform duration-700 ease-in-out">
     <div className="w-10 h-10 bg-gray-200 flex justify-center items-center rounded-full mb-3">
       <TrendingUp size={20} />
     </div>
@@ -22,7 +22,7 @@ const choose = () => {
     <p className="text-sm md:text-base">Our ten years of experience</p>
   </div>
 
-  <div className="bg-white p-6 rounded-lg shadow-md flex-1">
+  <div className="bg-white p-6 rounded-lg shadow-md flex-1 transform hover:scale-105 transition-transform duration-700 ease-in-out">
     <div className="w-10 h-10 bg-gray-200 rounded-full mb-3 flex justify-center items-center">
       <Cpu size={20} />
     </div>
@@ -32,7 +32,7 @@ const choose = () => {
     </p>
   </div>
 
-  <div className="bg-white p-6 rounded-lg shadow-md flex-1">
+  <div className="bg-white p-6 rounded-lg shadow-md flex-1 transform hover:scale-105 transition-transform duration-700 ease-in-out">
     <div className="w-10 h-10 bg-gray-200 rounded-full mb-3 flex justify-center items-center">
       <Sigma size={20} />
     </div>

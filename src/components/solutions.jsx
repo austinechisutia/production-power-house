@@ -20,15 +20,15 @@ export default function Solutions() {
 
       {/* 2. Option Bar */}
       <div className="w-full flex justify-between bg-white rounded-full p-2 text-black">
-        <button className="px-4 py-2 bg-gray-200 rounded-full shadow-sm text-sm sm:text-base">
+        <button className="px-4 py-2 bg-white hover:bg-gray-200 transition-colors duration-300 rounded-full shadow-sm text-sm sm:text-base">
           Largescale Solutions
         </button>
 
-        <button className="px-4 py-2 bg-white rounded-full shadow-sm text-sm sm:text-base">
+        <button className="px-4 py-2 bg-white hover:bg-gray-200 transition-colors duration-300 rounded-full shadow-sm text-sm sm:text-base">
           Largescale Solutions
         </button>
 
-        <button className="px-4 py-2 bg-white rounded-full shadow-sm text-sm sm:text-base">
+        <button className="px-4 py-2 bg-white hover:bg-gray-200 transition-colors duration-300 rounded-full shadow-sm text-sm sm:text-base">
           Largescale Solutions
         </button>
       </div>
@@ -40,7 +40,7 @@ export default function Solutions() {
         <img
           src={concert}
           alt="solution"
-          className="w-full md:w-1/2 rounded shadow-md object-cover filter grayscale hover:grayscale-0 transition duration-300"
+          className="w-full md:w-1/2 rounded shadow-md object-cover filter grayscale hover:grayscale-0 transition duration-300 transform hover:scale-105 transition-transform duration-700 ease-in-out"
         />
 
         {/* Right Description */}
@@ -53,11 +53,11 @@ export default function Solutions() {
           </h3>
 
           <div className="flex gap-2">
-            <div className="w-auto space-x-4 gap-1 max-w-40 h-10 bg-gray-300 rounded-full text-slate-900 flex items-center justify-center p-5">
+            <div className="w-auto space-x-4 gap-1 max-w-40 h-10 bg-gray-300 rounded-full text-slate-900 flex items-center justify-center p-5 hover:bg-black hover:text-white  transition-colors">
               <Users size={20} />   <span>60344</span>
             </div>
 
-            <div className="w-auto max-w-40 h-10 bg-gray-300 rounded-full text-slate-900 flex items-center justify-center p-5">
+            <div className="w-auto max-w-40 h-10 bg-gray-300 rounded-full text-slate-900 flex items-center justify-center p-5 hover:bg-black hover:text-white  transition-colors duration-300">
              <span className="flex items-center gap-2"> <DollarSign size={20} /> 60344</span>
             </div>
           </div>
@@ -66,7 +66,7 @@ export default function Solutions() {
             You can talk about speed, ease of use, or the way your tools
             remove stress like wiping fog from glass.
           </p>
-           <div className="h-10 w-10 bg-gray-300 rounded-full text-slate-900 flex items-center justify-center p-2">
+           <div className="h-10 w-10 bg-gray-300 rounded-full text-slate-900 flex items-center justify-center p-2 hover:bg-black hover:text-white  transition-colors">
   <ArrowRight size={20} />
 </div>
 
@@ -80,7 +80,8 @@ export default function Solutions() {
         <img
           src={concert}
           alt="solution"
-          className="w-full md:w-1/2 rounded shadow-md object-cover filter grayscale hover:grayscale-0 transition duration-300"
+          className="w-full md:w-1/2 rounded shadow-md object-cover filter grayscale hover:grayscale-0 transition duration-300 transform hover:scale-105 transition-transform duration-700 ease-in-out
+          "
         />
 
         {/* Right Description */}
@@ -93,11 +94,11 @@ export default function Solutions() {
           </h3>
 
           <div className="flex gap-2">
-            <div className="w-auto space-x-4 gap-1 max-w-40 h-10 bg-gray-300 rounded-full text-slate-900 flex items-center justify-center p-5">
+            <div className="w-auto space-x-4 gap-1 max-w-40 h-10 bg-gray-300 rounded-full text-slate-900 flex items-center justify-center p-5 hover:bg-black hover:text-white  transition-colors">
               <Users size={20} />   <span>60344</span>
             </div>
 
-            <div className="w-auto max-w-40 h-10 bg-gray-300 rounded-full text-slate-900 flex items-center justify-center p-5">
+            <div className="w-auto max-w-40 h-10 bg-gray-300 rounded-full text-slate-900 flex items-center justify-center p-5 hover:bg-black hover:text-white  transition-colors">
              <span className="flex items-center gap-2"> <DollarSign size={20} /> 60344</span>
             </div>
           </div>
@@ -106,7 +107,7 @@ export default function Solutions() {
             You can talk about speed, ease of use, or the way your tools
             remove stress like wiping fog from glass.
           </p>
-           <div className="h-10 w-10 bg-gray-300 rounded-full text-slate-900 flex items-center justify-center p-2">
+           <div className="h-10 w-10 bg-gray-300 rounded-full text-slate-900 flex items-center justify-center p-2 hover:bg-black hover:text-white  transition-colors duration-300">
   <ArrowRight size={20} />
 </div>
 

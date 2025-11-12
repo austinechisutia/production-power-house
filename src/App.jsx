@@ -14,6 +14,7 @@ import stage from './assets/images/stage.jpg'
 import sound from './assets/images/sound.jpg'
 import Solutions from './components/solutions.jsx'  
 import Choose from './components/choose.jsx'
+import Offers from './components/offers.jsx'
 
 
 
@@ -28,6 +29,7 @@ function App() {
        <PhotoGrid images={images} />
       <Solutions />
       <Choose />
+      <Offers />
 
       <main className="p-8">
         
