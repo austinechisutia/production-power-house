@@ -28,7 +28,7 @@ export default function HeroSection() {
               </div>
 
               {/* Heading */}
-              <h1 className="text-xl lg:text-6xl font-poppins leading-tight text-slate-900">
+              <h1 className="text-5xl lg:text-6xl font-poppins leading-tight text-slate-900">
                Production <br/> and support <br/> for your event
               </h1>
 
