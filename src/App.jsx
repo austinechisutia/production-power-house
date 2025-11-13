@@ -15,6 +15,8 @@ import sound from './assets/images/sound.jpg'
 import Solutions from './components/solutions.jsx'  
 import Choose from './components/choose.jsx'
 import Offers from './components/offers.jsx'
+import Discover from './components/discover.jsx'
+import Footer from './components/footer.jsx'
 
 
 
@@ -30,6 +32,8 @@ function App() {
       <Solutions />
       <Choose />
       <Offers />
+      <Discover />  
+
 
       <main className="p-8">
         
