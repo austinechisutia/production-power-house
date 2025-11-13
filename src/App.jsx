@@ -16,7 +16,10 @@ import Solutions from './components/solutions.jsx'
 import Choose from './components/choose.jsx'
 import Offers from './components/offers.jsx'
 import Discover from './components/discover.jsx'
+import Contact from './components/contact.jsx'
+import Image from './components/image.jsx'
 import Footer from './components/footer.jsx'
+
 
 
 
@@ -33,9 +36,13 @@ function App() {
       <Choose />
       <Offers />
       <Discover />  
+      <Image />
+      <Contact />
+      <Footer />
 
+      
 
-      <main className="p-8">
+      <main className="">
         
       </main>
     </div>

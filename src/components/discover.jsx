@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import { ChevronUp, ChevronDown } from "lucide-react";
+import podcasting from '../assets/images/podcasting.jpg';
+import professionalstage from '../assets/images/professional stage.jpg';
+import soundsystem from '../assets/images/sound-system.jpg';
+import cameraset from '../assets/images/camera set.jpg';
 
 const Discover = () => {
   const [currentPage, setCurrentPage] = useState(0);
@@ -8,22 +12,22 @@ const Discover = () => {
     {
       title: "Innovation First",
       description: "We constantly push boundaries and embrace new technologies to deliver cutting-edge solutions that keep our clients ahead of the curve.",
-      image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=600&fit=crop"
+      image: podcasting
     },
     {
       title: "Quality Excellence",
       description: "Every project receives meticulous attention to detail, ensuring the highest standards of quality in everything we deliver.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop"
+      image: professionalstage
     },
     {
       title: "Customer Focus",
       description: "Your success is our priority. We build lasting relationships through dedication, transparency, and exceptional service.",
-      image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop"
+      image: soundsystem
     },
     {
       title: "Sustainability",
       description: "We're committed to creating solutions that not only meet today's needs but also protect our planet for future generations.",
-      image: "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&h=600&fit=crop"
+      image: cameraset
     }
   ];
 
@@ -85,7 +89,7 @@ const Discover = () => {
             <img
               src={pages[currentPage].image}
               alt={pages[currentPage].title}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover grayscale hover:grayscale-0 focus:grayscale-0 transition duration-100"
             />
           </div>
         </div>
