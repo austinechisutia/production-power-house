@@ -5,6 +5,23 @@ import { ArrowRight } from "lucide-react";
 
 
 export default function HeroSection() {
+
+const words = [
+    'event',
+    'brand',
+    'story',
+    'business',
+    'content',
+    'campaign',
+    'project',
+    'visuals',
+    'live show',
+    'message',
+    'audience'
+  ];
+
+
+
   return (
     <>
       {/* Load Google Fonts */}
@@ -29,9 +46,81 @@ export default function HeroSection() {
               </div>
 
               {/* Heading */}
-              <h1 className="text-5xl lg:text-6xl font-poppins leading-tight text-slate-900">
-               Production <br/> and support <br/> for your event
-              </h1>
+               <h1 className="text-5xl lg:text-6xl font-sans leading-tight text-slate-900">
+        Production <br /> 
+        and support <br /> 
+        for your{' '}
+        <span className="inline-block overflow-hidden align-bottom" style={{ width: '280px', height: '1.2em' }}>
+          <span className="block animate-scroll font-bold">
+            {words.map((word, index) => (
+              <span key={index} className="block" style={{ height: '1.2em' }}>
+                {word}
+              </span>
+            ))}
+            {/* Duplicate for seamless loop */}
+            {words.map((word, index) => (
+              <span key={`duplicate-${index}`} className="block" style={{ height: '1.2em' }}>
+                {word}
+              </span>
+            ))}
+          </span>
+        </span>
+      </h1>
+
+      <style jsx>{`
+        @keyframes scroll {
+          0% {
+            transform: translateY(0);
+          }
+          7.69% {
+            transform: translateY(0);
+          }
+          15.38% {
+            transform: translateY(-7.69%);
+          }
+          23.07% {
+            transform: translateY(-7.69%);
+          }
+          30.76% {
+            transform: translateY(-15.38%);
+          }
+          38.45% {
+            transform: translateY(-15.38%);
+          }
+          46.14% {
+            transform: translateY(-23.07%);
+          }
+          53.83% {
+            transform: translateY(-23.07%);
+          }
+          61.52% {
+            transform: translateY(-30.76%);
+          }
+          69.21% {
+            transform: translateY(-30.76%);
+          }
+          76.90% {
+            transform: translateY(-38.45%);
+          }
+          84.59% {
+            transform: translateY(-38.45%);
+          }
+          92.28% {
+            transform: translateY(-46.14%);
+          }
+          100% {
+            transform: translateY(-50%);
+          }
+        }
+
+        .animate-scroll {
+          animation: scroll 26s ease-in-out infinite;
+        }
+
+        .animate-scroll:hover {
+          animation-play-state: paused;
+        }
+      `}</style>
 
 
                 <div className="flex flex-row">
